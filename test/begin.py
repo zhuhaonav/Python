@@ -17,3 +17,6 @@ elif age > 2:
  
 ### 退出提示
 input("点击 enter 键退出")
+
+##Python循环
+sites = ["Baidu", "Google","Runoob","Taobao"]
