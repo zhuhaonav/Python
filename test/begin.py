@@ -38,5 +38,5 @@ for n in range(2,10):
       print(n,'不是质数')
       break
   else:
-    print(n,'是质数')
+      print(n,'是质数')
         
