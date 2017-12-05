@@ -6,4 +6,4 @@ else:
    print('我来自另一模块')
 
 import sys
-print(dir(sys))#可以找到模块内定义的所有名称
+print(dir(sys))#可以找到模块内定义的所有名称--dir函数
