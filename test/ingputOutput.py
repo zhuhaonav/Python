@@ -9,3 +9,6 @@ print(s)
 for x in range(1, 11):
   #表示第一个参数x的格式。0 代表x,:2d 表示两个宽度的10进制数显示。
   print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
+
+print('-3.14'.zfill(5))
+print('3.14'.zfill(5))
