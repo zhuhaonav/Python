@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
-
+# -*- coding: UTF-8 -*-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -76,8 +76,11 @@ WSGI_APPLICATION = 'adminZ.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # 或者使用 mysql.connector.django
-        'host':'localhost','user':'zhuhao','PASSWORD':'zhu123456',
-        'PORT':'3306',
+        'HOST':'localhost',
+        'USER':'zhuhao',
+        'PASSWORD':'zhu123456',
+        'NAME': 'runoob',
+        'PORT':'',
     }
 }
 
